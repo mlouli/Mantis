@@ -31,10 +31,10 @@ protocol CropViewDelegate: AnyObject {
     func cropViewDidEndResize(_ cropView: CropView)
 }
 
-let cropViewMinimumBoxSize: CGFloat = 42
-let minimumAspectRatio: CGFloat = 0
-let hotAreaUnit: CGFloat = 32
-let cropViewPadding:CGFloat = 14.0
+public let cropViewMinimumBoxSize: CGFloat = 0.0
+public let minimumAspectRatio: CGFloat = 0
+public let hotAreaUnit: CGFloat = 32
+public let cropViewPadding: CGFloat = 0.0
 
 class CropView: UIView {
 
